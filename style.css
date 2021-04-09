@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-h1 {
+.titleblock {
   text-align: center;
   font-size: 55px;
   height: 200px;
