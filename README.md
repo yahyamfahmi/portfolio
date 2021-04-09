@@ -1,2 +1,2 @@
-# portfolio
-My portfolio showing some projects I've worked on!
+# My Portfolio
+Getting to know me and some projects I've worked on!
