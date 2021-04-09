@@ -2,8 +2,14 @@ head {
   text-align: center;
   font-size: 55px;
   height: 200px;
+  margin: 0;
+  padding: 0;
+  background: gray;
 }
 
 .introduction {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  background: teal;
 }
