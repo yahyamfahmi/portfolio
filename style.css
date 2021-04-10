@@ -2,45 +2,38 @@
   box-sizing: border-box;
 }
 
-.skill-table {
-  display: inline-block;
-}
-
-.header {
+.site-header {
   position: fixed;
-  text-align: center;
-  font-weight: 750;
-  width: 100%;
-  min-height: 75px;
-  top: 0;
-  background-color: white;
-  display: flex;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
   font-family: Arial, sans-serif;
+  background-color: gray;
+  top: 0;
+
+  width: 100%;
+  height: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.page-sections {
-  display: flex;
+.page-sections h2 {
+  display: inline-flex;
   justify-content: flex-end;
+  border: 3px solid black;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: red;
+  
 }
 
-.page-sections h2{
-  display: flex;
-  justify-content: flex-end;
-  border: 4px solid gray;
-  padding: 30px 30px;
-}
-
-.header h1 {
-  display: flex;
+.title h2 {
+  display: inline-flex;
   justify-content: flex-start;
-  font-size: 45px;
-  padding: 20px 20px;
-}
-
-h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 55px;
+  border: 3px solid black;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: red;
 }
 
 img {
@@ -48,28 +41,22 @@ img {
   max-height: 75px;
 }
 
+.titleblock {
+  background-color: #4D00FF;
+  padding: 50px 10px;
+  margin-top: 70px;
+  margin-bottom: 0;
+  text-align: left;
+  width: 100%;
+}
+
 .introduction {
   text-align: center;
   margin: 0;
   padding: 0;
   background: teal;
+  width: 100%;
 }
-
-.titleblock {
-  background-color: #4D00FF;
-  padding: 50px 0;
-  margin-top: 77px;
-  text-align: left;
-  
-}
-
-.skills {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-
 
 .projects {
   text-align: center;
