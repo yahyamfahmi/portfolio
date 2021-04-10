@@ -16,6 +16,7 @@
 
 .title-info {
   display: inline-block;
+  border: 3px solid black;
 }
 
 h1 {
