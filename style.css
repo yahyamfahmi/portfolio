@@ -14,7 +14,7 @@ h1 {
 
 img {
   max-wdith: 75px;
-  height: auto;
+  max-height: 75px;
 }
 
 .introduction {
