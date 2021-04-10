@@ -40,7 +40,8 @@ h1 {
 
 .header {
   font-family: Arial, sans-serif;
-  position: fixed
+  position: fixed;
+  text-align: center;
   font-weight: 750;
   width: 100%;
   top: 0;
