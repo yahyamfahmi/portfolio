@@ -45,13 +45,14 @@ img {
   width: 100%;
   top: 0;
   background-color: white;
-  border: 4px solid gray;
+  
 
 }
 
 .header li {
   display: inline-block;
   font-family: Arial, sans-serif;
+  border: 4px solid gray;
 }
 
 .header a {
