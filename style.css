@@ -51,6 +51,11 @@ h1 {
 display: inline-block;
 }
 
+.header a {
+  display: block;
+  padding: 30px 20px;
+}
+
 .projects {
   text-align: center;
   margin: 0;
