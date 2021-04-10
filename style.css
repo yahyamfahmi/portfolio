@@ -17,6 +17,11 @@ h1 {
   font-size: 55px;
 }
 
+img {
+  max-wdith: 100%;
+  height: auto;
+}
+
 .introduction {
   text-align: center;
   margin: 0;
