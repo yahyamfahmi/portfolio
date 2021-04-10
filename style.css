@@ -38,6 +38,15 @@ h1 {
   padding: 0;
 }
 
+.header {
+  font-family: Arial;
+  position: fixed
+  font-weight: 750;
+  width: 100%;
+  top: 0;
+
+}
+
 .header li {
 display: inline-block;
 }
