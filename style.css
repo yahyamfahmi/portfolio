@@ -39,7 +39,7 @@ h1 {
 }
 
 .header {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   position: fixed
   font-weight: 750;
   width: 100%;
