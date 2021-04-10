@@ -39,7 +39,6 @@ h1 {
 }
 
 .header {
-  font-family: Arial, sans-serif;
   position: fixed;
   text-align: center;
   font-weight: 750;
@@ -49,7 +48,8 @@ h1 {
 }
 
 .header li {
-display: inline-block;
+  display: inline-block;
+  font-family: Arial, sans-serif;
 }
 
 .header a {
