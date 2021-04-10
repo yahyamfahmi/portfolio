@@ -31,6 +31,14 @@ h1 {
   margin: 0;
   padding: 0;
   background: teal;
+  top: 200px;
+}
+
+.skills {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  top: 100px;
 }
 
 h2 {
