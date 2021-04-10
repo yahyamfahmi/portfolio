@@ -38,6 +38,10 @@ h1 {
   padding: 0;
 }
 
+.header li {
+display: inline-block;
+}
+
 .projects {
   text-align: center;
   margin: 0;
