@@ -24,7 +24,7 @@ html {
 .page-sections h2 {
   display: inline-flex;
   justify-content: flex-end;
-  border: 3px solid black;
+/*   border: 3px solid black; */
   padding: 9px 15px;
   font-size: 10px;
   background-color: white;
@@ -35,7 +35,7 @@ html {
 .title h2 {
   display: inline-flex;
   justify-content: flex-start;
-  border: 3px solid black;
+/*   border: 3px solid black; */
   padding: 5px 10px;
   margin-left: -3px;
   font-size: 15px;
