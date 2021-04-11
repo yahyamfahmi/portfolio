@@ -2,44 +2,95 @@
   box-sizing: border-box;
 }
 
-html {
+a:link {
+  text-decoration: none;
 }
 
+/* ---Fixed Site Header--- */
 .site-header {
   position: fixed;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
   font-family: Helvetica, serif;
+  text-decoration: none;
   background-color: white;
   top: 0;
   width: 100%;
   height: 45px;
-  padding-left: 10px;
-  padding-right: 10px;
   margin: auto -8px;
   border: 1px solid grey;
 }
 
-
-.page-sections h2 {
-  display: inline-flex;
-  justify-content: flex-end;
-  // border: 3px solid black;
-  padding: 9px 15px;
-  font-size: 14px;
-  background-color: white;
-  margin-right: -3px;
-  
+.site-header h2:hover{
+  color: #008d94;
+  background-color: #ecf3f3;
 }
 
 .title h2 {
   display: inline-flex;
   justify-content: flex-start;
-  padding: 5px 10px;
-  margin-left: -3px;
+  padding: 10px 10px;
   font-size: 20px;
+  color: black;
   background-color: white;
+  // border: 3px solid black;
+}
+
+.page-sections h2 {
+  display: inline-flex;
+  justify-content: flex-start;
+  // border: 3px solid black;
+  padding: 13px 15px;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  
+}
+
+/* ---Title Block--- */
+.title-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+  margin-bottom: 0px;
+  margin-right: -8px;
+  margin-left: -8px;
+  text-align: left;
+  min-width: 100%;
+  height: 240px;
+  padding: 10px auto;
+  border: 1px solid gray;
+  background-image: linear-gradient(to top right, #b8dee5, white);
+}
+
+.name-title 
+{
+  // border: 3px solid red;
+  padding: 0px 0px;
+  margin: 15px 0px;
+  height: 60px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.name-title h1, .name-title h2{
+  // border: 3px solid black;
+  text-align: center;
+  margin: 0px 0px;
+  padding: 0px 5px;
+  font-family: Arial, serif;
+}
+
+.name-title h2 {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  color: #3f565a;
 }
 
 .profile-img {
@@ -63,61 +114,29 @@ html {
   box-shadow: 0 0 5px 1.5px #3f565a;
 }
 
-.name-title 
-{
-  // border: 3px solid red;
-  padding: 0px 0px;
-  margin: 15px 0px;
-  height: 60px;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
 
 
-.name-title h1, .name-title h2{
-  // border: 3px solid black;
-  text-align: center;
-  margin: 0px 0px;
-  padding: 0px 5px;
-  font-family: Arial, serif;
-}
 
-.name-title h2 {
-  font-size: 15px;
-  padding: 0;
-  margin: 0;
-  color: #3f565a;
-  
-}
-
-.title-info {
-  flex-direction: column;
-  border: 1px solid gray;
-  display: flex;
-  padding: 10px auto;
-  justify-content: center;
-  align-items: center;
-  background-color: #e1e9ea;
-  margin-left: -8px;
-  margin: 44px -8px;
-  text-align: left;
-  width: 100%;
-  height: 240px;
-}
 
 .introduction {
   text-align: center;
-  margin: 0px 0px;
+  border: 1px solid gray;
+  margin: -1px -8px;
   padding: 15px 10px;
-  background: teal;
-  width: 100%;
+  background: white;
+  min-width: 100%;
+  top:-10px;
+  font-family: Arial, serif;
+  font-size: 15px;
 }
 
 .projects {
   text-align: center;
-  margin-top: 0;
+  margin: -1px -8px;;
   padding: 0;
-  background-color: #4D00FF;
+  height: 200px;
+  min-width: 100%;
+  background-color: #b8dee5;
+  border: 1px solid gray;
+  font-family: Arial, serif;
 }
