@@ -127,18 +127,18 @@ a:link {
   font-family: Arial, serif;
 }
 
-.app {
+.app1 {
   background-size:contain;
   width: 30px;
   height: 30px;
   background-image: url('images/linkedin-logo.png')
 }
 
-.app:hover {
+.app1:hover {
   background-image: url("images/linkedin-logo - Copy.png")
 }
 
-app2 {
+.app2 {
   background-size:contain;
   width: 30px;
   height: 30px;
