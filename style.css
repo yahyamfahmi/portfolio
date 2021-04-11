@@ -60,7 +60,7 @@ a:link {
   margin-left: -8px;
   text-align: left;
   min-width: 100%;
-  height: 240px;
+  height: 290px;
   padding: 10px auto;
   border: 1px solid gray;
   background-image: linear-gradient(to top right, #b8dee5, white);
@@ -114,9 +114,40 @@ a:link {
   box-shadow: 0 0 5px 1.5px #3f565a;
 }
 
+.contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid black;
+  width: 170px;
+  height: 50px;
+  padding: 0px 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-family: Arial, serif;
+}
 
+.app {
+  background-size:contain;
+  width: 30px;
+  height: 30px;
+  background-image: url('images/linkedin-logo.png')
+}
 
+.app:hover {
+  background-image: url("images/linkedin-logo - Copy.png")
+}
 
+app2 {
+  background-size:contain;
+  width: 30px;
+  height: 30px;
+  background-image: url('images/email-logo.png')
+}
+
+.app2:hover {
+  background-image: url("images/email-logo - Copy.png")
+}
 
 .introduction {
   text-align: center;
@@ -134,9 +165,9 @@ a:link {
   text-align: center;
   margin: -1px -8px;;
   padding: 0;
-  height: 200px;
+  height: 800px;
   min-width: 100%;
-  background-color: #b8dee5;
+  background-image: linear-gradient(to top right, #b8dee5, white);
   border: 1px solid gray;
   font-family: Arial, serif;
 }
