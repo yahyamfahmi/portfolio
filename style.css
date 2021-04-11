@@ -3,7 +3,6 @@
 }
 
 html {
-  background-color: green;
 }
 
 .site-header {
@@ -18,6 +17,7 @@ html {
   height: 35px;
   padding-left: 10px;
   padding-right: 10px;
+  margin: auto -8px;
 }
 
 .page-sections h2 {
@@ -27,6 +27,7 @@ html {
   padding: 5px 10px;
   font-size: 15px;
   background-color: red;
+  margin-right: -2px;
   
 }
 
@@ -35,6 +36,7 @@ html {
   justify-content: flex-start;
   border: 3px solid black;
   padding: 5px 10px;
+  margin-left: -2px;
   font-size: 15px;
   background-color: red;
 }
@@ -46,7 +48,7 @@ img {
 
 .titleblock {
   background-color: #4D00FF;
-  margin: 35px 0px;
+  margin: 29px 0px;
   padding: 10px 10px;
   text-align: left;
   width: 100%;
