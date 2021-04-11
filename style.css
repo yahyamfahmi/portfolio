@@ -10,7 +10,7 @@ html {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, serif;
   background-color: white;
   top: 0;
   width: 100%;
@@ -21,12 +21,13 @@ html {
   border: 1px solid grey;
 }
 
+
 .page-sections h2 {
   display: inline-flex;
   justify-content: flex-end;
-/*   border: 3px solid black; */
-  padding: 8px 15px;
-  font-size: 15px;
+  // border: 3px solid black;
+  padding: 9px 15px;
+  font-size: 10px;
   background-color: white;
   margin-right: -3px;
   
@@ -35,10 +36,9 @@ html {
 .title h2 {
   display: inline-flex;
   justify-content: flex-start;
-/*   border: 3px solid black; */
   padding: 5px 10px;
   margin-left: -3px;
-  font-size: 20px;
+  font-size: 15px;
   background-color: white;
 }
 
@@ -51,55 +51,58 @@ html {
 
 .circle-border {
   display: flex;
-  width: 150px;
-  height: 150px;
-  border: 3px solid black;
+  width: 130px;
+  height: 130px;
+  border: 5px solid white;
   border-radius: 50%;
   overflow: hidden;
+  margin-top: 15px;
   align-items: center;
-  margin: auto 10px;
-}
-
-.profile-info h1
-{
-  border: 3px solid black;
-  display: flex
+  box-shadow: 0 0 5px 1.5px #3f565a;
 }
 
 .name-title 
 {
-  border: 3px solid red;
-  margin-left: 20px;
-  padding: 0;
-  align-content: left;
+  // border: 3px solid red;
+  padding: 0px 0px;
+  margin: 15px 0px;
+  height: 60px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 
 .name-title h1, .name-title h2{
-  border: 3px solid black;
-  align-content: left;
-  text-align: left;
-  display: flex;
-  margin: 5px 10px;
-  padding: 5px 30px;
-  font-family: Arial, sans-serif;
+  // border: 3px solid black;
+  text-align: center;
+  margin: 0px 0px;
+  padding: 0px 5px;
+  font-family: Arial, serif;
 }
 
 .name-title h2 {
   font-size: 15px;
+  padding: 0;
+  margin: 0;
+  color: #3f565a;
+  
 }
 
 .title-info {
-  border: 1px solid black;
+  flex-direction: column;
+  border: 1px solid gray;
   display: flex;
   padding: 10px auto;
   justify-content: flex-start;
-  background-color: #4D00FF;
+  align-items: center;
+  background-color: #e1e9ea;
   margin-left: -8px;
-  margin: 45px -8px;
+  margin: 44px -8px;
   text-align: left;
   width: 100%;
-  height: 170px;
+  height: 300px;
 }
 
 .introduction {
