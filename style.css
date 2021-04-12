@@ -68,7 +68,7 @@ a:link {
 
 .name-title 
 {
-  // border: 3px solid red;
+/*   border: 3px solid red; */
   padding: 0px 0px;
   margin: 15px 0px;
   height: 60px;
@@ -149,6 +149,7 @@ a:link {
   background-image: url("images/email-logo - Copy.png")
 }
 
+/* ---About Me Block--- */
 .introduction {
   text-align: center;
   border: 1px solid gray;
@@ -156,7 +157,6 @@ a:link {
   padding: 15px 10px;
   background: white;
   min-width: 100%;
-  top:-10px;
   font-family: Arial, serif;
   font-size: 15px;
 }
