@@ -97,7 +97,8 @@ a:link {
   display: fixed;
   width: 150px;
   height: auto;
-  offset-left: 10px;
+  margin-left: -20px;
+  margin-top: 15px;
 }
 
 .circle-border {
