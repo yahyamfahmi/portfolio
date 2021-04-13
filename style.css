@@ -111,6 +111,7 @@ a:link {
   overflow: hidden;
   margin-top: 15px;
   align-items: center;
+  justify-content: center;
   box-shadow: 0 0 5px 1.5px #3f565a;
 }
 
