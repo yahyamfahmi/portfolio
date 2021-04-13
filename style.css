@@ -164,13 +164,74 @@ a:link {
 /* ---Projects Block--- */
 .projects {
   text-align: center;
-  margin: -1px -8px;;
+  margin: -1px -8px;
   padding: 0;
-  height: 800px;
+  height: 1300px;
   min-width: 100%;
   background-image: linear-gradient(to top right, #b8dee5, white);
   border: 1px solid gray;
   font-family: Arial, serif;
+}
+
+.projects h1 {
+  font-size: 22px;
+}
+
+.projects h2 {
+  text-align: center;
+  color: #064d51;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.projects h3 {
+  margin: 0;
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: 200;
+  color: white;
+  background-color: #0c959d;
+  box-shadow: 0 0 5px 1.5px #4a4a4a;
+}
+
+.projects h3:hover {
+  background-color: #086468;
+}
+
+.projects p {
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.app-languages {
+  // border: 2px solid black;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0px;
+  width: 30%;
+  padding: 0;
+}
+
+.app-languages img {
+  // border: 2px solid black;
+  height: auto;
+  max-width: 100%;
+  max-height: 50px;
+  margin: 0;
+}
+
+.app-capture img {
+  height: auto;
+  width: 100%;
+  min-width: 200px;
+  max-width: 1100px;
 }
 
 .filterplot {
@@ -181,14 +242,6 @@ a:link {
   justify-content: center;
   align-items: center;
   align-content: center;
-}
-
-.app-capture img {
-  height: auto;
-  width: 100%;
-  min-width: 200px;
-  max-width: 1000px;
-  border: 1px solid black;
 }
 
 .filterplot-txt {
@@ -203,41 +256,24 @@ a:link {
   // border: 2px solid red;
 }
 
-.filterplot-txt h1 {
-  // border: 2px solid black;
-  text-align: center;
-  color: #064d51;
-  font-weight: 700;
-  padding: 0;
-  margin: 0;
-}
-
-.filterplot-txt p {
-  // border: 2px solid black;
-  text-align: center;
+.pitree {
+  display: flex;
+  margin-top: 30px;
+  border: 3px solid black;
+  padding: 20px 5%;
   justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.pitree-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin: 0;
+  margin-right: 2%;
   padding: 0;
-  margin: 0;
-  margin-top: 10px;
-  font-size: 15px;
-}
-
-.filterplot-txt img {
-  height: auto;
-  margin: 0;
-  max-width: 100px;
-}
-
-.filterplot-txt h2 {
-  margin: 0;
-  padding: 5px 15px;
-  font-size: 18px;
-  font-weight: 200;
-  color: white;
-  background-color: #0c959d;
-  box-shadow: 0 0 5px 1.5px #4a4a4a;
-}
-
-.filterplot-txt h2:hover {
-  background-color: #086468;
+  // border: 2px solid red;
 }
