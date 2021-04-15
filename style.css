@@ -240,7 +240,7 @@ a:link {
 .filterplot {
   display: flex;
   margin-top: 30px;
-  border: 3px solid black;
+/*   border: 3px solid black; */
   padding: 20px 5%;
   justify-content: center;
   align-items: center;
@@ -262,7 +262,7 @@ a:link {
 .pitree {
   display: flex;
   margin-top: 30px;
-  border: 3px solid black;
+/*   border: 3px solid black; */
   padding: 20px 5%;
   justify-content: center;
   align-items: center;
@@ -281,6 +281,7 @@ a:link {
   // border: 2px solid red;
 }
 
+/* ---Skills & Certifications Block--- */
 .skills-cert {
   display: flex;
   flex-direction: column;
