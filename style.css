@@ -280,3 +280,120 @@ a:link {
   padding: 0;
   // border: 2px solid red;
 }
+
+.skills-cert {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: -1px -8px;
+  padding: 0;
+  height: 800px;
+  min-width: 100%;
+  background: white;
+  border: 1px solid gray;
+  font-family: Arial, serif;
+}
+
+.skills-cert h1 {
+  // border: 1px solid black;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  height: auto;
+  min-height: 80px;
+  min-width: 200px;
+  max-width: 1000px;
+  margin: 0px 20%;
+  margin-bottom: 10px;
+  padding: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  box-shadow: 0 0 5px 1.5px #3f565a;
+  // border: 2px solid black;
+}
+
+.grid-title {
+  background-image: linear-gradient(to top right, #ddeff3, white);
+  border: 1px solid grey;
+  font-size: 12px;
+}
+
+.box {
+  border: 1px solid grey;
+  font-size: 14px;
+}
+
+.cert {
+  display: grid;
+  width: 100%;
+  height: auto;
+  min-height: 10px;
+  min-width: 200px;
+  max-width: 1400px;
+  margin: 0px 20%;
+  margin-bottom: 10px;
+  padding: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  // border: 2px solid black;
+}
+
+.cert-entry {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  // border: 1px solid grey;
+}
+
+.cert-image {
+  // border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.cert-image img {
+  height: auto;
+  width: 100%;
+  min-width: 60px;
+  max-width: 100px;
+  box-shadow: 0 0 5px 1.0px #3f565a;
+}
+
+.cert-info {
+  display: grid;
+  grid-template-rows: auto 35px;
+  text-align: left;
+  padding-left: 10px;
+  // border: 2px solid red;
+}
+
+.cert-entry h3 {
+  font-size: 14px;
+  margin: 0;
+  // border: 1px solid blue;
+}
+
+.cert-entry h4 {
+  background-color: #0c959d;
+  color: white;
+  font-size: 12px;
+  padding: 4px 4px;
+  width: 100px;
+  margin: 0;
+  margin-bottom: 12px;
+  // border: 1px solid blue;
+  box-shadow: 0 0 5px 1.5px #3f565a;
+}
+
+.cert-entry h4:hover {
+  background-color: #086468;
+}
