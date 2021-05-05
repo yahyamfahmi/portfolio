@@ -1,4 +1,79 @@
 <!DOCTYPE html>
-
 <html>
+  <body>
+  
+    <head>
+      <!-- Linking to CSS style sheet -->
+      <link href="filterplot_style.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <!-- Setting browser tab title -->
+    <title>
+      Yahya Fahmi - FILTERPLOT
+    </title>
+    
+    
+    <!-- Page title block-->
+    <div class="intro">
+      
+      <img src="https://goodsearch-res.cloudinary.com/image/upload/v1508942413/hi_resolution_merchant_logos/square_coupons.png">
+      <div class="app-desc">
+        <h1>FILTERPLOT</h1>
+        <h2>
+          <i>FILTERPLOT</i> is a software application which performs synthsis, simulation, and optimization of 2 port microwave filter networks.
+          The application has a number of menus which offer easy user interaction as well as options to input and output data files.
+          The application's code and interface was developed using MATLAB for the Centre of Integrated RF Engineering at the University of Waterloo.
+        </h2>
+      </div>
+    </div>
+    <a id="intro"></a>
+
+    
+    <!-- About the app menus -->
+    <div class="about-app">
+      
+      <!-- Synthesis Menu -->
+      <div class="section">
+        <img src="https://goodsearch-res.cloudinary.com/image/upload/v1508942413/hi_resolution_merchant_logos/square_coupons.png">
+        <div class="app-desc">
+          <h2>SYNTHESIS</h2>
+          <p>
+            The app's synthesis tab takes user input for filter parameters, and in turn synthesizes the filter's coupling matrix.
+            The coupling matrix menu is interchangeable with the synthesis, simulation and optimization menus, so the user can work
+            with/change their synthesis results in the other menus.
+          </p>
+        </div>
+      </div>
+
+      <!-- Simulation Menu -->
+      <div class="section">
+        <img src="https://goodsearch-res.cloudinary.com/image/upload/v1508942413/hi_resolution_merchant_logos/square_coupons.png">
+        <div class="app-desc">
+          <h2>SIMULATION</h2>
+          <p>
+            The app's simulation menu takes in user input for filter parametes as well as the coupling matrix, and in turn simulates the filter's 
+            scattering parameters. The user can manually enter all of this information, but alternatively they can import an input data file
+            (in the form of an Excel Spreadsheet) containing the required information.
+          </p>
+        </div>
+      </div>
+
+      <!-- Optimization Menu -->
+      <div class="section">
+        <img src="https://goodsearch-res.cloudinary.com/image/upload/v1508942413/hi_resolution_merchant_logos/square_coupons.png">
+        <div class="app-desc">
+          <h2>OPTIMIZATION</h2>
+          <p>
+            The app's optimization menu works with results from either the synthesis or simulation menus, and optimizes the filter's
+            coupling matrix to a specific target. The user can choose between optmizing towards their own specifications
+            (which can be plotted onto the application's graph), or alternatively optimizing towards a data file response.
+            The user can choose the number of points which to optimize with and the number of iterations to use.
+            A dropdown gives the user a selection of MATLAB built-in optimization functions, and these functions
+            are fed an objective error function created by myself.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </body>
 </html>
