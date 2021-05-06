@@ -70,6 +70,8 @@
 .section {
   display: inline-flex;
   margin: 10px 0px;
+  border: 2px solid black;
+  background-image: linear-gradient(to top right, #e6e6eb, white);
 }
 
 .section h2 {
