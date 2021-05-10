@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+/* ---Title Block--- */
+.intro {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: -8px;
+  margin-bottom: 0px;
+  margin-right: -8px;
+  margin-left: -8px;
+  text-align: left;
+  min-width: 100%;
+  height: 330px;
+  padding: 10px auto;
+  border: 1px solid black;
+  overflow-y: hidden;
+  background-image: linear-gradient(to top right, #264c8c, #3263b8);
+}
+
+.intro img {
+  height: auto;
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
+  margin: 15px 15px;
+}
+
+.app-desc {
+  margin-left: 10px;
+  padding: 10px 10px;
+  font-family: Arial, serif;
+  color: black;
+}
+
+.app-desc h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.app-desc h2 {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 5px;
+  margin-right: 20%;
+  color: white;
+}
+
+.about-app {
+  display: inline-flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0px -8px;
+  padding: 0;
+  height: 480px;
+  min-width: 100%;
+  background: white;
+  border: 1px solid gray;
+  font-family: Arial, serif;
+}
+
+.cert {
+  display: grid;
+  width: 100%;
+  height: auto;
+  min-height: 10px;
+  min-width: 200px;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+
+}
+
+.cert-entry {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  color: white;
+  background-image: linear-gradient(to top right, #264c8c, #3263b8);
+  border: 2px solid black;
+}
+
+.cert-image {
+  display: flex;
+  justify-content: center;
+  padding-right: 0px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cert-image img {
+  height: auto;
+  width: 90%;
+  min-width: 60px;
+  max-width: 350px;
+  box-shadow: 0 0 5px 1.0px black;
+}
+
+.cert-info {
+  display: grid;
+  grid-template-rows: 15% 85%;
+  grid-template-columns: 1fr;
+  align-items: top;
+  padding: 0px 10px;
+  margin: 0;
+  
+}
+
+.cert-info h2 {
+  font-size: 18px;
+  text-decoration: underline;
+  margin-top: 15px;
+  color: white;
+  margin: 0;
+  padding: 10px 0px;
+}
+
+.cert-entry h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 4px 4px;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.main-im {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 0px -8px;
+  background-image: linear-gradient(to top right,  #3263b8, white);
+  min-width: 100%;
+  font-family: Arial, serif;
+  font-size: 15px;
+  height: 630px;
+  margin-bottom: -10px;
+  padding: 0;
+  border: 1px solid gray;
+
+}
+.main-im img {
+  margin: 20px 10px;
+  height: autopx;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 0 5px 1.5px black;
+}
