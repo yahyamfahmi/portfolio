@@ -6,6 +6,10 @@ a:link {
   text-decoration: none;
 }
 
+body {
+  min-width: 600px;
+}
+
 /* ---Fixed Site Header--- */
 .site-header {
   position: fixed;
@@ -20,6 +24,7 @@ a:link {
   height: 45px;
   margin: auto -8px;
   border: 1px solid grey;
+  //background-size: 100% 100%;
 }
 
 .site-header h2:hover{
@@ -31,7 +36,7 @@ a:link {
   display: inline-flex;
   justify-content: flex-start;
   padding: 10px 10px;
-  font-size: 20px;
+  font-size: 1.0vw;
   color: black;
   background-color: white;
   // border: 3px solid black;
@@ -41,8 +46,8 @@ a:link {
   display: inline-flex;
   justify-content: flex-start;
   // border: 3px solid black;
-  padding: 13px 15px;
-  font-size: 14px;
+  padding: 10px 15px;
+  font-size: 1.0vw;
   color: black;
   background-color: white;
   
@@ -172,11 +177,12 @@ a:link {
   text-align: center;
   margin: -1px -8px;
   padding: 0;
-  height: 1450px;
+  //height: 1450px;
   min-width: 100%;
   background-image: linear-gradient(to top right, #b8dee5, white);
   border: 1px solid gray;
   font-family: Arial, serif;
+  background-size: 100% 100%;
 }
 
 .projects h1 {
@@ -295,11 +301,12 @@ a:link {
   align-content: center;
   margin: -1px -8px;
   padding: 0;
-  height: 800px;
+  //height: 800px;
   min-width: 100%;
   background: white;
   border: 1px solid gray;
   font-family: Arial, serif;
+  background-size: 100% 100%;
 }
 
 .skills-cert h1 {
@@ -382,7 +389,7 @@ a:link {
 }
 
 .cert-entry h3 {
-  font-size: 14px;
+  font-size: 1.1vw;
   margin: 0;
   // border: 1px solid blue;
 }
