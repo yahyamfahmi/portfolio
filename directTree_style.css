@@ -17,11 +17,11 @@ body {
   margin-left: -8px;
   text-align: left;
   min-width: 100%;
-  height: 330px;
   padding: 10px auto;
   border: 1px solid black;
   overflow-y: hidden;
   background-image: linear-gradient(to top right, #264c8c, #3263b8);
+  background-size: 100% 100%;
 }
 
 .intro img {
@@ -47,7 +47,7 @@ body {
 }
 
 .app-desc h2 {
-  font-size: 20px;
+  font-size: 1.1vw;
   font-weight: 100;
   margin: 5px;
   margin-right: 20%;
@@ -62,11 +62,12 @@ body {
   align-content: center;
   margin: 0px -8px;
   padding: 0;
-  height: 480px;
+  //height: 480px;
   min-width: 100%;
   background: white;
   border: 1px solid gray;
   font-family: Arial, serif;
+  background-size: 100% 100%;
 }
 
 .cert {
@@ -81,7 +82,6 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 20px;
-
 }
 
 .cert-entry {
@@ -91,6 +91,7 @@ body {
   color: white;
   background-image: linear-gradient(to top right, #264c8c, #3263b8);
   border: 2px solid black;
+  margin: 15px 0px;
 }
 
 .cert-image {
@@ -121,7 +122,7 @@ body {
 }
 
 .cert-info h2 {
-  font-size: 18px;
+  font-size: 1.1vw;
   text-decoration: underline;
   margin-top: 15px;
   color: white;
@@ -131,7 +132,7 @@ body {
 
 .cert-entry h3 {
   color: white;
-  font-size: 16px;
+  font-size: 1.1vw;
   font-weight: 100;
   padding: 4px 4px;
   width: 100%;
@@ -146,17 +147,18 @@ body {
   text-align: left;
   margin: 0px -8px;
   background-image: linear-gradient(to top right,  #3263b8, white);
-  min-width: 100%;
+  //min-width: 100%;
   font-family: Arial, serif;
   font-size: 15px;
   height: 630px;
   margin-bottom: -10px;
   padding: 0;
   border: 1px solid gray;
+  background-size: 100% 100%;
 
 }
 .main-im img {
-  margin: 20px 10px;
+  margin: 10px 10px;
   height: autopx;
   width: 100%;
   max-width: 700px;
